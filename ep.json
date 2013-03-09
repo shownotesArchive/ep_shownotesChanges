@@ -4,6 +4,9 @@
       "name": "ep_shownotesChanges",
       "client_hooks": {
         "postAceInit" : "ep_shownotesChanges/static/js/index:postAceInit"
+      },
+      "hooks": {
+        "eejsBlock_styles" : "ep_shownotesChanges/index:eejsBlock_styles"
       }
     }
   ]
